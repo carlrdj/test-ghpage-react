@@ -13,7 +13,7 @@
     "lint": "npx eslint",
     "lint:fix": "npm run lint -- --fix",
     "format": "npm run prettier:fix && npm run lint:fix",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build --base-href=/mer/",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
