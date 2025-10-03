@@ -1,1 +1,0 @@
-import{u as t,j as s}from"./index-zJlaE_HK.js";import{w as n}from"./withHeaderItem-Deo_kum4.js";const r=a=>{const{className:o,...m}=a;return t(e=>e.panelExpand),t(e=>e.direction),t(e=>e.setPanelExpand),s.jsx(s.Fragment,{})},d=n(r);export{d as S};

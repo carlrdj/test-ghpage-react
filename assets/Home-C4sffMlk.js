@@ -1,0 +1,1 @@
+import{j as l,b as r}from"./index-Di-6ARBW.js";const n=({children:e,content:s,...t})=>l.jsx("div",{className:"h-full bg-white dark:bg-gray-800",children:l.jsxs("div",{className:"flex flex-col flex-auto items-center justify-center min-w-0 h-full",children:[s,e?r.cloneElement(e,{...t}):null]})});export{n as default};
