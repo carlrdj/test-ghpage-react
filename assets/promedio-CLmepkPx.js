@@ -1,0 +1,1 @@
+function d(t,n){const r=t.length,u=t.filter(e=>n(e)).length;return Number((u/r*100).toFixed(2))}function i(t,n){if(t.length==1)return d(t[0],n);const r=t.reduce((e,o)=>(e.push(d(o,n)),e),[]),u=r.reduce((e,o)=>e+o,0);return Number((u/r.length).toFixed(2))}export{i as p};
