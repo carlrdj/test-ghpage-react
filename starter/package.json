@@ -13,7 +13,7 @@
     "lint": "npx eslint",
     "lint:fix": "npm run lint -- --fix",
     "format": "npm run prettier:fix && npm run lint:fix",
-    "predeploy": "npm run build --base-href=/mer/",
+    "predeploy": "PUBLIC_URL=https://carlrdj.github.io/test-ghpage-react npm run build --base-href=/mer/",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
